@@ -46,3 +46,7 @@ docker compose up -d
 - API 무상태(JWT)로 수평 확장 용이
 - 파일 업로드 경로 분리, DB에는 메타데이터만 저장
 - CORS/API 분리 구조로 프론트/백 독립 확장 가능
+
+## 스키마 파일
+- 기본 실행 스키마: `infra/oracle/schema.sql`
+- 지식공유사이트 확장 설계 스키마(권한/태그/북마크/이력/모더레이션 포함): `infra/oracle/knowledge_sharing_schema.sql`
